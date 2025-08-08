@@ -1,75 +1,74 @@
-# Nuxt Minimal Starter
+# 🕹️ Games Management App
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+A simple game management system built with **Nuxt 3**, **Tailwind CSS**, and **PrimeVue**.  
+The app allows users to manage games with multilingual names and perform CRUD operations on local JSON data.
 
-## Setup
+![Skills](https://skillicons.dev/icons?i=nuxtjs,js,ts,tailwind&theme=light)
 
-Make sure to install dependencies:
+---
 
+## 📋 Features
+
+- 🔎 Filter game list by **category** and **keyword**
+- 📝 Add or edit game info with:
+  - Game ID
+  - Game Category
+  - Multilingual names (EN, KO, JA)
+- ➕ Add / 🗑️ Delete / ⭐ Set default language entries
+- ✅ Validate form before submitting
+- 📦 Uses local JSON (`/public/data/data.json`) to simulate data source
+
+---
+
+## ⚙️ Prerequisites
+
+Make sure your local environment has:
+- [Node.js](https://nodejs.org/) installed
+- [Bun](https://bun.sh/) package manager installed (`npm i -g bun`)
+
+---
+
+## 🚀 Installation
+
+1. **Clone the repository**
 ```bash
-# npm
-npm install
+git clone https://github.com/your-username/games-management-app.git
+cd games
 
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
+```sh
+ bun install
 ```
+Start the development server:
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
+```sh
 bun run dev
 ```
 
-## Production
+🗂 Folder Structure
+games/
+├── components/
+│   ├── Table.vue
+│   ├── DropDowns.vue
+│   └── CustomButton.vue
+├── composables/
+│   └── useGameStore.js
+├── pages/
+│   ├── game-list.vue
+│   └── game-registration.vue
+├── public/
+│   └── data/
+│       └── data.json
+├── app.vue
+├── nuxt.config.ts
+└── README.md
 
-Build the application for production:
+📚 References
+Nuxt 3 Docs
 
-```bash
-# npm
-npm run build
+Tailwind CSS
 
-# pnpm
-pnpm build
+PrimeVue
 
-# yarn
-yarn build
+FontAwesome Vue
 
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Bun Documentation
