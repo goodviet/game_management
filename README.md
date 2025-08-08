@@ -45,22 +45,24 @@ bun run dev
 ```
 
 🗂 Folder Structure
-games/
-├── components/
-│   ├── Table.vue
-│   ├── DropDowns.vue
-│   └── CustomButton.vue
-├── composables/
-│   └── useGameStore.js
-├── pages/
-│   ├── game-list.vue
-│   └── game-registration.vue
-├── public/
-│   └── data/
-│       └── data.json
-├── app.vue
-├── nuxt.config.ts
-└── README.md
+```
+    games/
+    ├── components/
+    │   ├── Table.vue
+    │   ├── DropDowns.vue
+    │   └── CustomButton.vue
+    ├── composables/
+    │   └── useGameStore.js
+    ├── pages/
+    │   ├── game-list.vue
+    │   └── game-registration.vue
+    ├── public/
+    │   └── data/
+    │       └── data.json
+    ├── app.vue
+    ├── nuxt.config.ts
+    └── README.md
+```
 
 📚 References
 Nuxt 3 Docs
