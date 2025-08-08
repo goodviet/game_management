@@ -1,0 +1,142 @@
+[
+    {
+        "id": "UNCHARTED4",
+        "category": "ADVENTURE",
+        "name": [
+            {
+                "language": "EN",
+                "value": "Uncharted 4"
+            },
+            {
+                "language": "KO",
+                "value": "언차티드 4"
+            }
+        ]
+    },
+    {
+        "id": "GTA5",
+        "category": "ACTION",
+        "name": [
+            {
+                "language": "EN",
+                "value": "Grand Theft Auto V"
+            },
+            {
+                "language": "KO",
+                "value": "그랜드 테프트 오토 V"
+            }
+        ]
+    },
+    {
+        "id": "TLOU2",
+        "category": "ACTION",
+        "name": [
+            {
+                "language": "EN",
+                "value": "The Last of Us Part II"
+            },
+            {
+                "language": "KO",
+                "value": "더 라스트 오브 어스 파트 2"
+            }
+        ]
+    },
+    {
+        "id": "BOTW",
+        "category": "ADVENTURE",
+        "name": [
+            {
+                "language": "EN",
+                "value": "The Legend of Zelda: Breath of the Wild"
+            },
+            {
+                "language": "KO",
+                "value": "젤다의 전설: 야생의 숨결"
+            }
+        ]
+    },
+    {
+        "id": "HALO5",
+        "category": "SHOOTER",
+        "name": [
+            {
+                "language": "EN",
+                "value": "Halo 5: Guardians"
+            },
+            {
+                "language": "KO",
+                "value": "헤일로 5: 가디언즈"
+            }
+        ]
+    },
+    {
+        "id": "MGS5",
+        "category": "ACTION",
+        "name": [
+            {
+                "language": "EN",
+                "value": "Metal Gear Solid V: The Phantom Pain"
+            },
+            {
+                "language": "KO",
+                "value": "메탈 기어 솔리드 V: 더 팬텀 페인"
+            }
+        ]
+    },
+    {
+        "id": "SPIDERMAN",
+        "category": "ACTION",
+        "name": [
+            {
+                "language": "EN",
+                "value": "Marvel's Spider-Man"
+            },
+            {
+                "language": "KO",
+                "value": "마블 스파이더맨"
+            }
+        ]
+    },
+    {
+        "id": "RE7",
+        "category": "HORROR",
+        "name": [
+            {
+                "language": "EN",
+                "value": "Resident Evil 7: Biohazard"
+            },
+            {
+                "language": "KO",
+                "value": "레지던트 이블 7: 바이오하자드"
+            }
+        ]
+    },
+    {
+        "id": "NFSH",
+        "category": "RACING",
+        "name": [
+            {
+                "language": "EN",
+                "value": "Need for Speed: Hot Pursuit"
+            },
+            {
+                "language": "KO",
+                "value": "니드 포 스피드: 핫 퍼슈트"
+            }
+        ]
+    },
+    {
+        "id": "FIFA22",
+        "category": "SPORTS",
+        "name": [
+            {
+                "language": "EN",
+                "value": "FIFA 22"
+            },
+            {
+                "language": "KO",
+                "value": "피파 22"
+            }
+        ]
+    }
+]

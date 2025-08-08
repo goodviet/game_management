@@ -1,0 +1,24 @@
+@font-face {
+    font-family: MadimiOne;
+    src: url('../fonts/MadimiOne-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: Spartan;
+    src: url('../fonts/LeagueSpartan-VariableFont_wght.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+
+
+
+@import "tailwindcss";
+@theme{
+    --font-madimi: MadimiOne, "sans-serif";
+    --font-spartan: Spartan, "sans-serif";
+}
+
